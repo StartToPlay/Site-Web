@@ -5,3 +5,17 @@ hr
     border-collapse: separate;
     border-spacing: 0.5%;
 }
+#jolt
+{
+	min-width: 130px;
+	min-height: 100px;
+  	max-width: 60%;
+ 	max-height: 60%;
+}
+#everkey
+{
+	min-width: 100px;
+	min-height: 100px;
+  	max-width: 110%;
+  	max-height: 110%;
+}
