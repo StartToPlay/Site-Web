@@ -1,0 +1,17 @@
+/* tableau */
+hr
+{
+    border-color: lightgray;
+    border-collapse: separate;
+    border-spacing: 0.5%;
+}
+img [alt="Jolt"]
+{
+  width: 10px;
+  height: 10px;
+}
+img [alt="Everkey"]
+{
+  width: 10px;
+  height: 10px;
+}
