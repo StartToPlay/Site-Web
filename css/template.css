@@ -1,6 +1,8 @@
 /* grande taille*/
 /* header */
 header {
+    padding-top: 10px;
+    width: 100%;
     display         : inline-block;
     vertical-align  : top;
     height          : 70px;
@@ -10,40 +12,74 @@ header {
     background-color: #46C262;
 }
 
+#logo{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+#logo img{
+    height      : 50px;
+    width       : 50px;
+}
+#recherche{
+    position: absolute;
+    top: 35px;
+    left: 160px;
+}
 header input {
     width: 600px;
 }
 
+#accueil{
+    position: absolute;
+    top: 35px;
+    right: 250px;
+}
+#a_propos{
+    position: absolute;
+    top: 35px;
+    right: 170px;
+}
+#panier{
+    position: absolute;
+    top: 35px;
+    right: 100px;
+}
+#se_connecter{
+    position: absolute;
+    top: 35px;
+    right: 50px;
+}
+#se_connecter img{
+    height      : 30px;
+    width       : 30px;
+}
 header a {
     margin-right   : 1.5%;
     color          : black;
     text-decoration: none;
 }
 
-header img {
-    margin-top  : 10px;
-    margin-left : 10px;
-    margin-right: 10px;
-    height      : 50px;
-    width       : 50px;
-}
 
 
 /* paneau catégorie à gauche */
 
 nav {
+    margin-top: 0px;
+    background-color: white;
     float          : left;
-    width          : 170px;
+    width          : 130px;
     height         : 90%;
     top            : 65px;
     left           : 0px;
     z-index        : 2;
     text-decoration: none;
     color          : green;
+    text-align: center;
 }
 
 nav p {
-    width         : 120px;
+    width         : 130px;
     padding-bottom: 10px;
     margin-bottom : 10px;
     border-bottom : 2px solid rgb(175, 174, 174);
