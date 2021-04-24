@@ -44,9 +44,15 @@ nav {
     text-decoration: none;
     color: green;
 }
-
-nav a {
+nav p
+{
+    width: 120px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
     border-bottom: 2px solid rgb(175, 174, 174);
+    text-align: center;
+}
+nav a {
     color: green;
     text-decoration: none;
 }
