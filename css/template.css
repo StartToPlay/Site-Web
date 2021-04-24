@@ -1,112 +1,100 @@
-/* header */
-header
-{
-  display: inline-block;
-  vertical-align: top;
-  height: 70px;
-  color: black;
-  font-size: medium;
-  text-decoration: none;
-  background-color: #46C262;
-}
-header a
-{
-  margin-right: 1.5%;
-  color: black;
-  text-decoration: none;
-}
-header img
-{
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-  height: 50px; 
-  width: 50px; 
-}
+    /* grande taille*/
 
-
-/* paneau catégorie à gauche */
-nav
-{
-    float: left;
-    width: 170px;
-    height: 90%;
-    top: 65px;
-    left: 0px; 
-    z-index: 2;
-    text-decoration: none;
-    color: green;
-}
-nav a
-{
-    color: green;
-    text-decoration: none;
-}
-nav a:hover
-{
-    border-bottom: 0;
-}
-
-/* général */
-body
-{
-  background-color: white;
-  color: black;
-  font-size: medium;
-  font-family: Times New Roman, Times, serif;
-  text-decoration: none;
-}
-
-#main{
-  max-width: 1280;
-  min-width: 100%;
-  margin:0 auto;
-  position: relative;
-  }
-
-
-/* texte principal */
-section
-{
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-
-/* footer */
-footer
-{
-  display: inline-block;
-  vertical-align: bottom;
-  font-size: small;
-  width: 100%;
-  height: 200px;
-  text-decoration: none;
-  color: white;
-  background-color: rgb(17, 17, 19);
-  
-  
-  bottom: 0;
-  padding-top: 60px;
-}
-footer a
-{
-    color: white;
-    text-decoration: none;
-}
-#footer_gauche
-{
-  margin-left: 15px;
-  display: inline-block;
-  width: 30%;
-}
-#footer_milieu
-{
-  display: inline-block;
-  width: 30%;
-}
-#footer_droit
-{
-  margin-right: 15px;
-  display: inline-block;
-  width: 30%;
-}
+@media not handled and (min-width: 1000px) {
+    /* header */
+    header {
+        display: inline-block;
+        vertical-align: top;
+        height: 70px;
+        color: black;
+        font-size: medium;
+        text-decoration: none;
+        background-color: #46C262;
+    }
+    header input {
+        width: 800px;
+    }
+    header a {
+        margin-right: 1.5%;
+        color: black;
+        text-decoration: none;
+    }
+    header img {
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 50px;
+        width: 50px;
+    }
+    /* paneau catégorie à gauche */
+    nav {
+        float: left;
+        width: 170px;
+        height: 90%;
+        top: 65px;
+        left: 0px;
+        z-index: 2;
+        text-decoration: none;
+        color: green;
+    }
+    nav a {
+        border-bottom: 2px solid rgb(175, 174, 174);
+        color: green;
+        text-decoration: none;
+    }
+    nav a:hover {
+        border-bottom: 0;
+    }
+    /* général */
+    body {
+        background-color: white;
+        color: black;
+        font-size: medium;
+        font-family: Times New Roman, Times, serif;
+        text-decoration: none;
+    }
+    #main {
+        max-width: 1280;
+        min-width: 100%;
+        margin: 0 auto;
+        position: relative;
+    }
+    /* texte principal */
+    section {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    /* footer */
+    footer {
+        display: inline-block;
+        vertical-align: bottom;
+        font-size: small;
+        width: 100%;
+        height: 200px;
+        text-decoration: none;
+        color: white;
+        background-color: rgb(17, 17, 19);
+        bottom: 0;
+        padding-top: 60px;
+    }
+    footer a {
+        color: white;
+        text-decoration: none;
+    }
+    #footer_gauche {
+        margin-left: 15px;
+        display: inline-block;
+        width: 30%;
+    }
+    #footer_milieu {
+        display: inline-block;
+        width: 30%;
+    }
+    #footer_droit {
+        margin-right: 15px;
+        display: inline-block;
+        width: 30%;
+    }
+    /* petite taille */
+    @media screen and (min-width: 1000px) {
+        p {}
+    }
