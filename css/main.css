@@ -1,21 +1,66 @@
-h1{
+h1 {
 	text-align: center;
-	font-size: xx-large;
+	font-size : xx-large;
 }
 
-table{
-	border: 1px solid grey;
+table {
+	border : 1px solid grey;
 	padding: 0px;
 
 }
-#wuf{
-	width: 90%;
+#jolt {
+	width: 100%;
 }
 
-#jolt{
-	width: 95%;
+#everkey {
+	width: 100%;
 }
 
-#everkey{
+#wuf {
 	width: 110%;
+}
+
+
+
+#archt_one {
+	width: 100%;
+}
+
+#isketchonte {
+	width: 100%;
+}
+
+#the_micro {
+	width: 100%;
+
+}
+
+#airbolt {
+	width: 100%;
+
+}
+
+#glass_portrait {
+	width: 100%;
+
+}
+
+#ebreath {
+	width: 100%;
+
+}
+
+#montanc {
+	width: 100%;
+
+}
+
+#suntable {
+	width: 100%;
+
+}
+
+#talo_brush {
+	width: 100%;
+
 }
