@@ -17,16 +17,24 @@ header {
     top     : 25px;
     left    : 25px;
 }
-
 #logo img {
     height: 50px;
     width : 50px;
 }
 
-#recherche {
+#recherche input{
     position: absolute;
-    top     : 35px;
     left    : 160px;
+    top: 38px;
+    z-index: 1;
+}
+#recherche img{
+    position: absolute;
+    left: 120px;
+    top    : 23px;
+    height: 50px;
+    width : 50px;
+    z-index: 2;
 }
 
 header input {
@@ -125,6 +133,7 @@ body {
 
 section {
     font-family: Arial, Helvetica, sans-serif;
+    margin-left: 150px;
 }
 
 
@@ -142,27 +151,31 @@ footer {
     bottom          : 0;
     padding-top     : 60px;
 }
-footer p{
+
+footer p {
     position: relative;
 
 }
-#facebook{
+
+#facebook {
     position: relative;
-    left: 45%;
-    width: 50px;
-    height: 50px;
+    left    : 45%;
+    width   : 50px;
+    height  : 50px;
 }
-#twitter{
+
+#twitter {
     position: relative;
-    left: 45%;
-    width: 50px;
-    height: 50px;
+    left    : 45%;
+    width   : 50px;
+    height  : 50px;
 }
-#instagram{
+
+#instagram {
     position: relative;
-    left: 45%;
-    width: 50px;
-    height: 50px;
+    left    : 45%;
+    width   : 50px;
+    height  : 50px;
 }
 
 footer a {
@@ -190,37 +203,46 @@ footer a {
 /* petite taille */
 @media all and (max-width: 1024px) {
     header input {
-        width: 130px;
-    }
-
-    #recherche {
-        position: absolute;
-        top     : 35px;
-        left    : 60px;
+        width: 120px;
     }
 
     #accueil {
         position: absolute;
         top     : 35px;
-        left   : 270px;
+        left    : 270px;
     }
 
+    #recherche input{
+        position: absolute;
+        left    : 120px;
+        top: 35px;
+        z-index: 1;
+    }
+    #recherche img{
+        position: absolute;
+        left: 80px;
+        top    : 23px;
+        height: 50px;
+        width : 50px;
+        z-index: 2;
+    }
+    
     #a_propos {
         position: absolute;
         top     : 35px;
-        left   : 330px;
+        left    : 330px;
     }
 
     #panier {
         position: absolute;
         top     : 35px;
-        left   : 400px;
+        left    : 400px;
     }
 
     #se_connecter {
         position: absolute;
         top     : 30px;
-        left   : 460px;
+        left    : 460px;
     }
 
     #se_connecter img {
@@ -233,4 +255,17 @@ footer a {
         color          : black;
         text-decoration: none;
     }
+
+    /* fait disparaitre nav */
+    nav{
+        display: none;
+    }
+
+    /* texte principal */
+
+    section {
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 40px;
+    }
+
 }
