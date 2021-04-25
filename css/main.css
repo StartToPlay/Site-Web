@@ -5,42 +5,17 @@ h1{
 
 table{
 	border: 1px solid grey;
-}
-#table1{
-	position: absolute;
-	left: 0px;
-	top: 100px;
-}
+	padding: 0px;
 
-#table2{
-	position: absolute;
-	left: 400px;
-	top: 100px;
 }
-
-#table3{
-	position: absolute;
-	left: 800px;
-	top: 100px;
-}
-
 #wuf{
-	min-width : 100px;
-	min-height: 100px;
-	max-width : 400px;
-	max-height: 400px;
+	width: 90%;
 }
 
 #jolt{
-	min-width : 130px;
-	min-height: 100px;
-	max-width : 450px;
-	max-height: 400px;
+	width: 95%;
 }
 
 #everkey{
-	min-width : 100px;
-	min-height: 100px;
-	max-width : 400px;
-	max-height: 400px;
+	width: 110%;
 }
