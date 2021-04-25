@@ -1,20 +1,72 @@
-/* tableau */
-hr {
-	border-color   : lightgray;
-	border-collapse: separate;
-	border-spacing : 5%;
+h1 {
+	text-align: center;
+	font-size : xx-large;
 }
 
+table {
+	margin: 0px;
+	padding: 0px 0px;
+	text-align: center;
+	resize: horizontal;
+}
+td {
+	border-right: thin solid grey;
+	border-left: thin solid grey;
+	width: 2%;
+	}
 #jolt {
-	min-width : 130px;
-	min-height: 100px;
-	max-width : 60%;
-	max-height: 60%;
+	width: 100%;
 }
 
 #everkey {
-	min-width : 100px;
-	min-height: 100px;
-	max-width : 110%;
-	max-height: 110%;
+	width: 100%;
+}
+
+#wuf {
+	width: 110%;
+}
+
+
+
+#archt_one {
+	width: 100%;
+}
+
+#isketchonte {
+	width: 100%;
+}
+
+#the_micro {
+	width: 100%;
+
+}
+
+#airbolt {
+	width: 100%;
+
+}
+
+#glass_portrait {
+	width: 100%;
+
+}
+
+#ebreath {
+	width: 100%;
+
+}
+
+#montanc {
+	width: 100%;
+
+}
+
+#suntable {
+	width: 100%;
+
+}
+
+#talo_brush {
+	width: 100%;
+
 }
