@@ -6,6 +6,7 @@ h1 {
 table {
 	border : 1px solid grey;
 	padding: 0px;
+	text-align: center;
 
 }
 #jolt {
