@@ -4,11 +4,16 @@ h1 {
 }
 
 table {
-	border : 1px solid grey;
-	padding: 0px;
+	margin: 0px;
+	padding: 0px 0px;
 	text-align: center;
-
+	resize: horizontal;
 }
+td {
+	border-right: thin solid grey;
+	border-left: thin solid grey;
+	width: 2%;
+	}
 #jolt {
 	width: 100%;
 }
