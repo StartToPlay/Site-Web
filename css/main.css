@@ -1,20 +1,46 @@
-/* tableau */
-hr {
-	border-color   : lightgray;
-	border-collapse: separate;
-	border-spacing : 5%;
+h1{
+	text-align: center;
+	font-size: xx-large;
 }
 
-#jolt {
-	min-width : 130px;
-	min-height: 100px;
-	max-width : 60%;
-	max-height: 60%;
+table{
+	border: 1px solid grey;
+}
+#table1{
+	position: absolute;
+	left: 0px;
+	top: 100px;
 }
 
-#everkey {
+#table2{
+	position: absolute;
+	left: 400px;
+	top: 100px;
+}
+
+#table3{
+	position: absolute;
+	left: 800px;
+	top: 100px;
+}
+
+#wuf{
 	min-width : 100px;
 	min-height: 100px;
-	max-width : 110%;
-	max-height: 110%;
+	max-width : 400px;
+	max-height: 400px;
+}
+
+#jolt{
+	min-width : 130px;
+	min-height: 100px;
+	max-width : 450px;
+	max-height: 400px;
+}
+
+#everkey{
+	min-width : 100px;
+	min-height: 100px;
+	max-width : 400px;
+	max-height: 400px;
 }
