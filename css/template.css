@@ -127,7 +127,9 @@ body {
     margin   : 0 auto;
     position : relative;
 }
-
+h2{
+    text-align: center;
+}
 
 /* texte principal */
 
