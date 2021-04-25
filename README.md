@@ -13,4 +13,7 @@ https://docs.google.com/document/d/1nqLrpEC5d13i2Tkf04Q78njhh-MqvpKjlZUjtPGHzUI/
 
 replit
 https://replit.com/@DreamFailor/Site-Web#About.html
+pour lancer le site web sur replit :
+>>>cd html
+>>>xdg-open main.html
 
